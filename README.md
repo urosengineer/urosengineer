@@ -1,6 +1,6 @@
 # Hi, I'm Uros Ilic 👋
 
-**Senior Java & Kotlin Backend Engineer | Spring Boot | Modular, Secure, Scalable Solutions**
+**Java & Kotlin Backend Engineer | Spring Boot | Modular, Secure, Scalable Solutions**
 
 ---
 
