@@ -31,14 +31,20 @@ I value direct, written communication and always deliver clean, production-ready
 
 ## 💡 Skills
 
-![Java](https://img.shields.io/badge/Java-21-blue)
-![Kotlin](https://img.shields.io/badge/Kotlin-1.9-blueviolet)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.0-brightgreen)
-![Docker](https://img.shields.io/badge/Docker-Desktop-informational)
+![Java](https://img.shields.io/badge/Java-blue)
+![Kotlin](https://img.shields.io/badge/Kotlin-blueviolet)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-brightgreen)
+![Docker](https://img.shields.io/badge/Docker-informational)
+![Desktop](https://img.shields.io/badge/Desktop-Apps-blue)
 ![Microservices](https://img.shields.io/badge/Microservices-Architecture-yellowgreen)
-![SQL](https://img.shields.io/badge/SQL-MySQL,MariaDB-lightgrey)
-![JWT](https://img.shields.io/badge/JWT-Authentication-orange)
-![Swagger](https://img.shields.io/badge/Swagger-OpenAPI-success)
+![Architecture](https://img.shields.io/badge/Architecture-Enterprise-lightgrey)
+![SQL](https://img.shields.io/badge/SQL-lightgrey)
+![MySQL_MariaDB](https://img.shields.io/badge/MySQL_MariaDB-inactive)
+![JWT](https://img.shields.io/badge/JWT-orange)
+![Authentication](https://img.shields.io/badge/Authentication-critical)
+![Swagger](https://img.shields.io/badge/Swagger-success)
+![OpenAPI](https://img.shields.io/badge/OpenAPI-brightgreen)
+
 
 - Java, Kotlin, Spring Boot, Security, WebSocket
 - RESTful API design, Microservices, modular architecture
