@@ -60,7 +60,7 @@ I value direct, written communication and always deliver clean, production-ready
 ## 📬 Contact
 
 - [Upwork](https://www.upwork.com/freelancers/~01fec0932cf5314b14)
-- [LinkedIn](www.linkedin.com/in/uros-ilic-6a201436a)
+- [LinkedIn](https://www.linkedin.com/in/uros-ilic-6a201436a)
 - Email: uros.dev.engineer@outlook.com
 
 ---
