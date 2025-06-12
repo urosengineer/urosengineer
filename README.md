@@ -37,11 +37,9 @@ I value direct, written communication and always deliver clean, production-ready
 ![Kotlin](https://img.shields.io/badge/Kotlin-blueviolet)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-brightgreen)
 ![Docker](https://img.shields.io/badge/Docker-informational)
-![Desktop](https://img.shields.io/badge/Desktop-Apps-blue)
 ![Microservices](https://img.shields.io/badge/Microservices-Architecture-yellowgreen)
-![Architecture](https://img.shields.io/badge/Architecture-Enterprise-lightgrey)
 ![SQL](https://img.shields.io/badge/SQL-lightgrey)
-![MySQL_MariaDB](https://img.shields.io/badge/MySQL_MariaDB-inactive)
+![MySQL/MariaDB](https://img.shields.io/badge/MySQL%2FMariaDB-blue)
 ![JWT](https://img.shields.io/badge/JWT-orange)
 ![Authentication](https://img.shields.io/badge/Authentication-critical)
 ![Swagger](https://img.shields.io/badge/Swagger-success)
@@ -60,6 +58,6 @@ I value direct, written communication and always deliver clean, production-ready
 
 - [Upwork](https://www.upwork.com/freelancers/~01fec0932cf5314b14)
 - [LinkedIn](https://www.linkedin.com/in/uros-ilic-6a201436a)
-- Email: uros.dev.engineer@outlook.com
+- **Email:** uros.dev.engineer@outlook.com
 
 ---
