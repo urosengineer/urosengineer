@@ -47,7 +47,7 @@ I value direct, written communication and always deliver clean, production-ready
 ![Swagger](https://img.shields.io/badge/Swagger-success)
 ![OpenAPI](https://img.shields.io/badge/OpenAPI-brightgreen)
 
-
+**Key Skills:**
 - Java, Kotlin, Spring Boot, Security, WebSocket
 - RESTful API design, Microservices, modular architecture
 - SQL (MySQL, MariaDB), JPA/Hibernate, Docker
