@@ -20,13 +20,13 @@ I value direct written communication and always deliver clean, production-ready 
 
 ### 🛠️ Portfolio Highlights
 
-**[saas-backend-starter](link)**  
-Enterprise-ready Spring Boot backend — multi-tenant, modular DDD, RBAC/PBAC, JWT, audit logging, file management, WebSocket, i18n, Docker-ready.
+- [saas-backend-starter](https://github.com/urosengineer/saas-backend-starter)  
+  *SaaS-ready, enterprise Spring Boot backend — multi-tenant, modular DDD, RBAC/PBAC, JWT, audit logging, file management, WebSocket, i18n, Docker-ready.*
 
-**[spring-boot-backend-portfolio](link)**  
-Modular, multi-tenant backend template — production-grade architecture for modern business applications.
-  
-👉 **Explore all my repositories for more examples of secure, production-ready backend engineering.**
+- [spring-boot-backend-portfolio](https://github.com/urosengineer/spring-boot-backend-portfolio)  
+  *Modular, multi-tenant backend template — production-grade architecture for modern business applications.*
+
+👉 **Explore [all my repositories](https://github.com/urosengineer?tab=repositories) for more examples.**
 
 ---
 
