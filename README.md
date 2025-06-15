@@ -1,33 +1,32 @@
-# Hi, I'm Uros Ilic 👋
-
+# Hi, I'm Uros Ilic 👋  
 **Java & Kotlin Backend Engineer | Spring Boot | Modular, Secure, Scalable Solutions**
 
 ---
 
-## 🚀 About Me
+### 🚀 About Me
 
-I'm a backend engineer with strong expertise in building scalable, maintainable, and secure systems using Java, Kotlin, and Spring Boot.  
-I architect and implement solutions for a variety of industries — from business applications and B2B APIs, to analytics platforms and automation.
+I'm a backend engineer specializing in **scalable, maintainable, and secure systems** using Java, Kotlin, and Spring Boot.  
+I design and implement robust solutions for a wide range of industries — from business platforms and B2B APIs to analytics and automation.
 
-**My approach:**
-- Robust, modular codebases
-- Domain-driven design and best practices
-- Security-first API and data handling
-- Clear documentation and maintainability
+**My approach:**  
+- Robust, modular codebases  
+- Domain-driven design and industry best practices  
+- Security-first API and data handling  
+- Clear documentation and long-term maintainability
 
-I value direct, written communication and always deliver clean, production-ready solutions tailored to your needs.
+I value direct written communication and always deliver clean, production-ready solutions tailored to client needs.
 
 ---
 
-## 🛠️ Portfolio Highlights
+### 🛠️ Portfolio Highlights
 
-- [saas-backend-starter](https://github.com/urosengineer/saas-backend-starter)  
-  *SaaS-ready, enterprise Spring Boot backend — multi-tenant, modular DDD, RBAC/PBAC, JWT, audit logging, file management, WebSocket, i18n, Docker-ready.*
+**[saas-backend-starter](link)**  
+Enterprise-ready Spring Boot backend — multi-tenant, modular DDD, RBAC/PBAC, JWT, audit logging, file management, WebSocket, i18n, Docker-ready.
 
-- [spring-boot-backend-portfolio](https://github.com/urosengineer/spring-boot-backend-portfolio)  
-  *Modular, multi-tenant backend template — production-grade architecture for modern business applications.*
+**[spring-boot-backend-portfolio](link)**  
+Modular, multi-tenant backend template — production-grade architecture for modern business applications.
   
-👉 **Explore [all my repositories](https://github.com/urosengineer?tab=repositories) for more examples.**
+👉 **Explore all my repositories for more examples of secure, production-ready backend engineering.**
 
 ---
 
