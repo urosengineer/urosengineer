@@ -32,17 +32,42 @@ I value direct written communication and always deliver clean, production-ready 
 
 ## 💡 Skills
 
-![Java](https://img.shields.io/badge/Java-blue)
-![Kotlin](https://img.shields.io/badge/Kotlin-blueviolet)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-brightgreen)
-![Docker](https://img.shields.io/badge/Docker-informational)
-![Microservices](https://img.shields.io/badge/Microservices-Architecture-yellowgreen)
-![SQL](https://img.shields.io/badge/SQL-lightgrey)
-![MySQL/MariaDB](https://img.shields.io/badge/MySQL%2FMariaDB-blue)
-![JWT](https://img.shields.io/badge/JWT-orange)
-![Authentication](https://img.shields.io/badge/Authentication-critical)
-![Swagger](https://img.shields.io/badge/Swagger-success)
-![OpenAPI](https://img.shields.io/badge/OpenAPI-brightgreen)
+### Backend
+![Java](https://img.shields.io/badge/Java-blue)  
+![Kotlin](https://img.shields.io/badge/Kotlin-blueviolet)  
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-brightgreen)  
+![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?logo=spring-security&logoColor=white)  
+![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-yellowgreen)  
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?logo=graphql&logoColor=white)  
+![WebSocket](https://img.shields.io/badge/WebSocket-3A76F0?logo=websocket&logoColor=white)  
+![STOMP](https://img.shields.io/badge/STOMP-61DAFB?logo=stomp&logoColor=white)  
+
+### Databases
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)  
+![MySQL/MariaDB](https://img.shields.io/badge/MySQL%2FMariaDB-blue)  
+![SQL](https://img.shields.io/badge/SQL-lightgrey)  
+
+### DevOps & Cloud
+![Docker](https://img.shields.io/badge/Docker-informational)  
+![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?logo=docker&logoColor=white)  
+![Maven](https://img.shields.io/badge/Maven-C71A36?logo=apache-maven&logoColor=white)  
+![Gradle](https://img.shields.io/badge/Gradle-02303A?logo=gradle&logoColor=white)  
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white)  
+![CI/CD](https://img.shields.io/badge/CI%2FCD-35495E?logo=github-actions&logoColor=white)  
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)  
+![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)  
+
+### API & Security
+![JWT](https://img.shields.io/badge/JWT-orange)  
+![Authentication](https://img.shields.io/badge/Authentication-critical)  
+![Swagger](https://img.shields.io/badge/Swagger-success)  
+![Swagger UI](https://img.shields.io/badge/Swagger%20UI-85EA2D?logo=swagger&logoColor=white)  
+![OpenAPI](https://img.shields.io/badge/OpenAPI-brightgreen)  
+
+### Testing & Quality
+![JUnit 5](https://img.shields.io/badge/JUnit%205-25A162?logo=junit5&logoColor=white)  
+![Mockito](https://img.shields.io/badge/Mockito-2D9C3B?logo=java&logoColor=white)  
+
 
 **Key Skills:**
 - Java, Kotlin, Spring Boot, Security, WebSocket
