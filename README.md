@@ -20,6 +20,9 @@ I value direct written communication and always deliver clean, production-ready 
 
 ### 🛠️ Portfolio Highlights
 
+- [timesheet-attendance-platform](https://github.com/urosengineer/timesheet-attendance-platform)  
+  *Production-grade, multi-tenant attendance and leave management backend — RBAC/PBAC, JWT, audit/event logging, real-time notifications, GraphQL, Prometheus, Grafana, full Docker stack.*
+
 - [saas-backend-starter](https://github.com/urosengineer/saas-backend-starter)  
   *SaaS-ready, enterprise Spring Boot backend — multi-tenant, modular DDD, RBAC/PBAC, JWT, audit logging, file management, WebSocket, i18n, Docker-ready.*
 
