@@ -1,87 +1,111 @@
 # Hi, I'm Uros Ilic
 
-I build software products across backend services, desktop applications, real-time systems, and media infrastructure.
+I build **broadcast automation, media infrastructure, and real-time control systems**.
 
-My work spans multiple layers of the stack: backend APIs, operator-facing desktop tools, workflow engines, background agents, native runtime components, and integration-heavy services. I’m most interested in building complete systems — products that require clear architecture, predictable runtime behavior, and reliability in production.
+Most of my current work lives in private repositories and is focused on a larger product ecosystem spanning:
 
-Over time, my focus has moved beyond isolated backend development toward building complete product ecosystems where multiple applications and services need to work together cleanly.
+- newsroom and rundown systems
+- media asset management and workflow automation
+- ingest, playout, CG, teleprompter, and video wall control
+- site-to-site media transfer agents
+- desktop operator tools
+- native media and playback engine components
 
-## What I Work On
+I’m interested in complete systems — software where architecture, runtime behavior, operator experience, and production reliability all matter.
 
-My work typically includes:
+---
 
-- backend platforms and business-critical services
-- desktop software for control, operations, and monitoring
-- workflow orchestration and automation systems
-- media ingest and processing pipelines
-- integration and control-plane services
-- performance-sensitive native components
-- end-to-end product architecture across multiple applications
+## Current Build Activity
 
-I care about strong system boundaries, maintainable code, operational clarity, and practical production-ready engineering.
+<p align="center">
+  <img
+    src="https://streak-stats.demolab.com?user=urosengineer&theme=tokyonight&hide_border=true&border_radius=10"
+    alt="GitHub Streak"
+  />
+</p>
 
-## Technologies
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=urosengineer&theme=tokyo-night&hide_border=true&radius=10"
+    alt="GitHub Activity Graph"
+  />
+</p>
 
-I choose technologies based on the product, not the other way around.
+---
+
+## What I'm Building
+
+### Broadcast and Media Systems
+
+- **Newsroom and rundown workflows** — story/item models, live production control, MOS-oriented integrations
+- **Media Asset Management** — ingest, search, AI-assisted metadata, workflow execution, related assets
+- **Playout and live control** — channel state, cue/take/preroll semantics, shared playlists, operator-first UI
+- **CG and graphics systems** — template authoring, live preview, data-driven graphics workflows
+- **Teleprompter infrastructure** — newsroom synchronization, live script control, SDI-oriented output agents
+- **Media transfer platforms** — control-plane + agents for reliable site-to-site file delivery
+
+### Runtime and Infrastructure Work
+
+- backend services and APIs
+- desktop control applications
+- real-time WebSocket/STOMP systems
+- workflow engines and background orchestration
+- native C++ media/playback components
+- integration-heavy services that connect multiple products into one coherent system
+
+---
+
+## Core Technologies
 
 ### Languages
-![Java](https://img.shields.io/badge/Java-blue)
-![Kotlin](https://img.shields.io/badge/Kotlin-blueviolet)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white)
+![Java](https://img.shields.io/badge/Java-111111?style=for-the-badge&logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-111111?style=for-the-badge&logo=kotlin&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-111111?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-111111?style=for-the-badge&logo=rust&logoColor=white)
 
-### Backend and Platform
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-brightgreen)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?logo=spring-security&logoColor=white)
-![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-yellowgreen)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?logo=graphql&logoColor=white)
-![WebSocket](https://img.shields.io/badge/WebSocket-3A76F0?logo=websocket&logoColor=white)
-![STOMP](https://img.shields.io/badge/STOMP-61DAFB?logo=stomp&logoColor=white)
-![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?logo=apachekafka&logoColor=white)
-![OpenSearch](https://img.shields.io/badge/OpenSearch-005EB8?logo=opensearch&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-244c5a?logo=grpc&logoColor=white)
-![Protocol Buffers](https://img.shields.io/badge/Protobuf-3E7FC1)
+### Broadcast, Media, and Native
+![FFmpeg](https://img.shields.io/badge/FFmpeg-111111?style=for-the-badge&logo=ffmpeg&logoColor=white)
+![NDI](https://img.shields.io/badge/NDI-111111?style=for-the-badge)
+![Blackmagic DeckLink](https://img.shields.io/badge/Blackmagic%20DeckLink-111111?style=for-the-badge)
+![CMake](https://img.shields.io/badge/CMake-111111?style=for-the-badge&logo=cmake&logoColor=white)
 
-### Data and Infrastructure
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white)
-![MySQL/MariaDB](https://img.shields.io/badge/MySQL%2FMariaDB-blue)
-![Docker](https://img.shields.io/badge/Docker-informational)
-![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=github-actions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
+### Backend and Infrastructure
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-111111?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-111111?style=for-the-badge&logo=springsecurity&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-111111?style=for-the-badge&logo=apachekafka&logoColor=white)
+![OpenSearch](https://img.shields.io/badge/OpenSearch-111111?style=for-the-badge&logo=opensearch&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-111111?style=for-the-badge)
+![Docker](https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-111111?style=for-the-badge&logo=linux&logoColor=white)
 
-### Native and Systems
-![CMake](https://img.shields.io/badge/CMake-064F8C?logo=cmake&logoColor=white)
-![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?logo=ffmpeg&logoColor=white)
-![NDI](https://img.shields.io/badge/NDI-111111)
-![Blackmagic DeckLink](https://img.shields.io/badge/Blackmagic%20DeckLink-orange)
+---
 
-### Tooling and Quality
-![Maven](https://img.shields.io/badge/Maven-C71A36?logo=apache-maven&logoColor=white)
-![Gradle](https://img.shields.io/badge/Gradle-02303A?logo=gradle&logoColor=white)
-![OpenAPI](https://img.shields.io/badge/OpenAPI-brightgreen)
-![Swagger](https://img.shields.io/badge/Swagger-success)
-![JUnit 5](https://img.shields.io/badge/JUnit%205-25A162?logo=junit5&logoColor=white)
-![Mockito](https://img.shields.io/badge/Mockito-2D9C3B?logo=java&logoColor=white)
-![Testcontainers](https://img.shields.io/badge/Testcontainers-2496ED?logo=docker&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
+## Public Reference Projects
 
-## Selected Repositories
+Most of my current broadcast and media systems work is private.  
+The repositories below are public reference implementations and earlier product-oriented backend projects.
 
-- [timesheet-attendance-platform](https://github.com/urosengineer/timesheet-attendance-platform)  
-  Production-grade multi-tenant attendance and leave management backend with RBAC/PBAC, JWT, audit/event logging, real-time notifications, GraphQL, and a full Docker-based setup.
+### [timesheet-attendance-platform](https://github.com/urosengineer/timesheet-attendance-platform)
+Multi-tenant attendance and leave management backend with RBAC/PBAC, JWT security, audit and workflow event logging, real-time notifications, GraphQL, and Docker-based local setup.
 
-- [saas-backend-starter](https://github.com/urosengineer/saas-backend-starter)  
-  Enterprise-ready Spring Boot backend starter focused on modular architecture, multi-tenancy, security, audit logging, file handling, WebSocket support, and production-minded foundations.
+### [saas-backend-starter](https://github.com/urosengineer/saas-backend-starter)
+Spring Boot backend starter focused on modular architecture, multi-tenancy, security, audit logging, file handling, WebSocket support, and production-minded service foundations.
 
-See more: [github.com/urosengineer](https://github.com/urosengineer?tab=repositories)
+---
 
-## Approach
+## Engineering Approach
 
-I like building software that is clear to reason about, reliable in production, and designed as a real product rather than a collection of isolated features.
+I like building software that is:
 
-My strongest interest is in systems that combine architecture, runtime behavior, tooling, automation, and operations into one coherent whole.
+- clear to reason about
+- reliable under real operational pressure
+- structured around explicit system boundaries
+- designed as a product, not a collection of isolated features
+
+My strongest interest is in systems where **backend architecture, real-time behavior, native runtimes, UI operations, and production workflows** all have to fit together cleanly.
+
+---
 
 ## Contact
 
