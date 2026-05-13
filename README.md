@@ -15,14 +15,7 @@ I’m interested in complete systems — software where architecture, runtime be
 
 ---
 
-## Current Build Activity
-
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=urosengineer&theme=tokyonight&hide_border=true&border_radius=10"
-    alt="GitHub Streak"
-  />
-</p>
+## Recent Build Activity
 
 <p align="center">
   <img
