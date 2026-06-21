@@ -24,6 +24,13 @@ I’m interested in complete systems — software where architecture, runtime be
   />
 </p>
 
+<p align="center">
+  <img
+    src="./profile/streak.svg"
+    alt="GitHub Contribution Streak"
+  />
+</p>
+
 ---
 
 ## What I'm Building

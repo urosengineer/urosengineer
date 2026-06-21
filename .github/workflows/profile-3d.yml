@@ -1,9 +1,12 @@
-name: GitHub-Profile-3D-Contrib
+name: Profile Activity Widgets
 
 on:
   schedule:
     # Runs daily in the early morning for Europe/Belgrade.
     - cron: "15 1 * * *"
+  push:
+    paths:
+      - ".github/workflows/profile-3d.yml"
   workflow_dispatch:
 
 permissions:
@@ -12,24 +15,35 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: generate-github-profile-3d-contrib
+    name: generate-profile-activity-widgets
     steps:
       - uses: actions/checkout@v5
 
-      - uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+      - name: Generate 3D contribution profile
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+
+      - name: Prepare streak stats output directory
+        run: mkdir -p profile
+
+      - name: Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=${{ github.repository_owner }}&hide_border=true&background=0D1117&stroke=1F6FEB&ring=58A6FF&fire=FF7B72&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=8B949E&disable_animations=true&card_width=700
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add -A profile-3d-contrib
+          git add -A profile-3d-contrib profile
 
           if git diff --cached --quiet; then
-            echo "No 3D contribution profile changes to commit."
+            echo "No profile activity widget changes to commit."
           else
-            git commit -m "Generate 3D contribution profile"
+            git commit -m "Generate profile activity widgets"
             git push
           fi
