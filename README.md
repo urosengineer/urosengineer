@@ -19,7 +19,7 @@ I’m interested in complete systems — software where architecture, runtime be
 
 <p align="center">
   <img
-    src="./profile-3d-contrib/profile-night-view.svg"
+    src="./profile-3d-contrib/profile-night-rainbow.svg"
     alt="3D Contribution Profile"
   />
 </p>
