@@ -15,6 +15,8 @@ I’m interested in complete systems — software where architecture, runtime be
 
 ---
 
+## Engineering Activity
+
 <p align="center">
   <img
     src="./profile-3d-contrib/profile-night-view.svg"
