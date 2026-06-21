@@ -17,8 +17,8 @@ I’m interested in complete systems — software where architecture, runtime be
 
 <p align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=urosengineer&theme=tokyo-night&hide_border=true&radius=10&custom_title=Recent%20Contribution%20Activity"
-    alt="GitHub Activity Graph"
+    src="./profile-3d-contrib/profile-night-view.svg"
+    alt="3D Contribution Profile"
   />
 </p>
 
