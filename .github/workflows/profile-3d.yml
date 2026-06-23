@@ -2,9 +2,8 @@ name: Profile Activity Widgets
 
 on:
   schedule:
-    # Runs daily in the early morning for Europe/Belgrade.
-    - cron: "37 4 * * *"
-      timezone: "Europe/Belgrade"
+    - cron: "37 2 * * *"
+    - cron: "17 5 * * *"
   push:
     paths:
       - ".github/workflows/profile-3d.yml"
