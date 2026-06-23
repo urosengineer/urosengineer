@@ -2,8 +2,8 @@ name: Profile Activity Widgets
 
 on:
   schedule:
-    - cron: "37 2 * * *"
-    - cron: "17 5 * * *"
+    - cron: "7 0 * * *"
+    - cron: "7 12 * * *"
   push:
     paths:
       - ".github/workflows/profile-3d.yml"
