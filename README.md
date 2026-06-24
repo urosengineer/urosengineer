@@ -86,6 +86,9 @@ I’m interested in complete systems — software where architecture, runtime be
 Most of my current broadcast and media systems work is private.  
 The repositories below are public reference implementations and earlier product-oriented backend projects.
 
+### [frameflow](https://github.com/urosengineer/frameflow)
+Native C++ globe rendering runtime for host-composed geographic discovery interfaces, with a small C ABI boundary, offscreen bitmap presentation, diagnostics, and optional Cesium Native integration.
+
 ### [timesheet-attendance-platform](https://github.com/urosengineer/timesheet-attendance-platform)
 Multi-tenant attendance and leave management backend with RBAC/PBAC, JWT security, audit and workflow event logging, real-time notifications, GraphQL, and Docker-based local setup.
 
