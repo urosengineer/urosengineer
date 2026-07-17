@@ -1,6 +1,9 @@
 name: Profile Streak
 
 on:
+  push:
+    paths:
+      - ".github/workflows/profile-streak.yml"
   schedule:
     - cron: "0 0 * * *"
     - cron: "0 12 * * *"
