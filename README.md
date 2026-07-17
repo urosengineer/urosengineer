@@ -19,14 +19,14 @@ I’m interested in complete systems — software where architecture, runtime be
 
 <p align="center">
   <img
-    src="./profile-3d-contrib/profile-night-view.svg"
-    alt="3D Contribution Profile"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=urosengineer&amp;theme=tokyo-night&amp;hide_border=true&amp;radius=10&amp;custom_title=Recent%20Contribution%20Activity"
+    alt="Recent GitHub Contribution Activity"
   />
 </p>
 
 <p align="center">
   <img
-    src="./profile/streak.svg"
+    src="https://streak-stats.demolab.com?user=urosengineer&amp;hide_border=true&amp;background=0D1117&amp;stroke=1F6FEB&amp;ring=58A6FF&amp;fire=FF7B72&amp;currStreakNum=FFFFFF&amp;sideNums=FFFFFF&amp;currStreakLabel=C9D1D9&amp;sideLabels=C9D1D9&amp;dates=8B949E&amp;card_width=700"
     alt="GitHub Contribution Streak"
   />
 </p>
