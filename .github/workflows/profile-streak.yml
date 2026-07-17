@@ -1,0 +1,73 @@
+name: Profile Streak
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+    - cron: "0 12 * * *"
+  push:
+    paths:
+      - ".github/workflows/profile-streak.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-streak
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - id: generate
+        continue-on-error: true
+        uses: DenverCoder1/github-readme-streak-stats@2c2e936823881ec94120a207d7a534520eeadf8f
+        with:
+          options: user=${{ github.repository_owner }}&hide_border=true&background=0D1117&stroke=1F6FEB&ring=58A6FF&fire=FF7B72&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=8B949E&disable_animations=true&card_width=700
+          path: profile/streak.next.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - id: verify
+        if: always()
+        run: |
+          php <<'PHP'
+          <?php
+          function textAfterMarker(string $path, string $marker): string {
+              if (!is_file($path)) {
+                  return "";
+              }
+              libxml_use_internal_errors(true);
+              $document = new DOMDocument();
+              if (!$document->load($path)) {
+                  return "";
+              }
+              $xpath = new DOMXPath($document);
+              $query = sprintf('(//comment()[normalize-space(.) = "%s"]/following-sibling::*[1]//*[local-name() = "text"])[1]', $marker);
+              $node = $xpath->query($query)->item(0);
+              return $node === null ? "" : trim($node->textContent);
+          }
+
+          $currentTotal = (int) preg_replace('/[^0-9]/', '', textAfterMarker('profile/streak.svg', 'Total Contributions big number'));
+          $candidateTotal = (int) preg_replace('/[^0-9]/', '', textAfterMarker('profile/streak.next.svg', 'Total Contributions big number'));
+          $currentRange = textAfterMarker('profile/streak.svg', 'Total Contributions range');
+          $candidateRange = textAfterMarker('profile/streak.next.svg', 'Total Contributions range');
+          $valid = $candidateTotal >= $currentTotal && $candidateTotal > 0 && $candidateRange === $currentRange;
+          file_put_contents(getenv('GITHUB_OUTPUT'), 'valid=' . ($valid ? 'true' : 'false') . PHP_EOL, FILE_APPEND);
+          PHP
+
+      - if: steps.verify.outputs.valid == 'true'
+        run: mv profile/streak.next.svg profile/streak.svg
+
+      - if: steps.verify.outputs.valid == 'true'
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add profile/streak.svg
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Generate profile streak"
+          git push
