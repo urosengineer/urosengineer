@@ -26,7 +26,7 @@ I’m interested in complete systems — software where architecture, runtime be
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=urosengineer&amp;hide_border=true&amp;background=0D1117&amp;stroke=1F6FEB&amp;ring=58A6FF&amp;fire=FF7B72&amp;currStreakNum=FFFFFF&amp;sideNums=FFFFFF&amp;currStreakLabel=C9D1D9&amp;sideLabels=C9D1D9&amp;dates=8B949E&amp;card_width=700"
+    src="./profile/streak.svg"
     alt="GitHub Contribution Streak"
   />
 </p>
