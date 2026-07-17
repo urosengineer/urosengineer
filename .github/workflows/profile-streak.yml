@@ -59,13 +59,15 @@ jobs:
           PHP
 
       - if: steps.verify.outputs.valid == 'true'
-        run: mv profile/streak.next.svg profile/streak.svg
+        run: |
+          mv profile/streak.next.svg profile/streak.svg
+          sed -i -E "s#(src=\"\\./profile/streak\\.svg)(\\?v=[^\"]*)?(\".*)#\\1?v=${GITHUB_RUN_ID}\\3#" README.md
 
       - if: steps.verify.outputs.valid == 'true'
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add profile/streak.svg
+          git add README.md profile/streak.svg
           if git diff --cached --quiet; then
             exit 0
           fi
