@@ -1,4 +1,4 @@
-# Hi, I'm Uros Ilic
+# Uros Ilic
 
 I build **broadcast automation, media infrastructure, and real-time control systems**.
 
@@ -33,16 +33,63 @@ I’m interested in complete systems — software where architecture, runtime be
 
 ---
 
+```text
+                                                                ----
+                                   %%%                          ----
+                                   %%%                          =---
+                                   %%%                          =---
+                                   %%%                          =---
+                                   %%%                          =---
+                                   %%%                          =---
+                                   %%%                        --------
+                                 %%%%%%%                    ------------
+                               %%%@@@@@%%%                 --------------
+           %%%%%%%%%%%%%%%%%%%%%%@@@@@@@%%%%%%%%%%%%%%%%%%*--------------================--
+           %%%%%%%%%%%%%%%%%%%%%@@@@@@@@%%%%%%%%%%%%%%%%%%*--------------------------------
+                               %%@@@@@@@%%                 --------------
+                                %%%%@%%%%                  -------------
+                                  %%%%%                      ----------
+                                   %%%                          +##-
+                                   %%%                           %%
+                                   %%%                           %%
+                                   %%%                           %%
+                                  %%%%%                        %%%%%%
+                               %%%@@@@%%%                    %%%@@@@%%%
+                               %%@@@@@@@%%                  %%@@@@@@@@%%
+           %%%%%%%%%%%%%%%%%%%%%@@@@@@@@%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@%%%%%%%%%%%%%%%%%%%
+                               %%@@@@@@@%%                  %%@@@@@@@@%%
+                               %%%@@@@%%%                    %%%@@@@%%%
+                                 %%%%%%%                       %%%%%%
+                                   %%%                           %%
+                                   %%%                           %%
+                                   %%%                           %%
+                                   %%%                           %%
+                                   %%%                          %%%%
+                                %%%%%%%%%                    %%%%%%%%%%
+                               %%@@@@@@@%%                  %%@@@@@@@%%%
+           %%%%%%%%%%%%%%%%%%%%%@@@@@@@@%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@%%%%%%%%%%%%%%%%%%%
+           %%%%%%%%%%%%%%%%%%%%%%@@@@@@@%%%%%%%%%%%%%%%%%%%%%%@@@@@@@@%%%%%%%%%%%%%%%%%%%
+                               %%%@@@@@%%%                   %%@@@@@%%%
+                                %%%%%%%%                      %%%%%%%%
+                                   %%%                           %%
+                                   %%%                           %%
+                                   %%%                           %%
+                                   %%%                           %%
+                                   %%%                           %%
+                                   %%%                           %%
+
+```
+
 ## What I'm Building
 
 ### Broadcast and Media Systems
 
-- **Newsroom and rundown workflows** — story/item models, live production control, MOS-oriented integrations
-- **Media Asset Management** — ingest, search, AI-assisted metadata, workflow execution, related assets
-- **Playout and live control** — channel state, cue/take/preroll semantics, shared playlists, operator-first UI
-- **CG and graphics systems** — template authoring, live preview, data-driven graphics workflows
-- **Teleprompter infrastructure** — newsroom synchronization, live script control, SDI-oriented output agents
-- **Media transfer platforms** — control-plane + agents for reliable site-to-site file delivery
+- **Newsroom and rundown workflows** - story/item models, live production control, MOS-oriented integrations
+- **Media Asset Management** - ingest, search, AI-assisted metadata, workflow execution, related assets
+- **Playout and live control** - channel state, cue/take/preroll semantics, shared playlists, operator-first UI
+- **CG and graphics systems** - template authoring, live preview, data-driven graphics workflows
+- **Teleprompter infrastructure** - newsroom synchronization, live script control, SDI-oriented output agents
+- **Media transfer platforms** - control-plane + agents for reliable site-to-site file delivery
 
 ### Runtime and Infrastructure Work
 
