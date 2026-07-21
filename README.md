@@ -26,7 +26,7 @@ I’m interested in complete systems — software where architecture, runtime be
 
 <p align="center">
   <img
-    src="./profile/streak.svg?v=29790033874"
+    src="./profile/streak.svg?v=29830306424"
     alt="GitHub Contribution Streak"
   />
 </p>
