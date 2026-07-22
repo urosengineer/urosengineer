@@ -62,6 +62,7 @@ jobs:
         run: |
           mv profile/streak.next.svg profile/streak.svg
           sed -i -E "s#(src=\"\\./profile/streak\\.svg)(\\?v=[^\"]*)?(\".*)#\\1?v=${GITHUB_RUN_ID}\\3#" README.md
+          sed -i -E "s#(src=\"\\./profile-3d-contrib/profile-night-rainbow\\.svg)(\\?v=[^\"]*)?(\".*)#\\1?v=${GITHUB_RUN_ID}\\3#" README.md
 
       - id: generate-3d
         continue-on-error: true
