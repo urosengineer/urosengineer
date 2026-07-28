@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <style>
+      .sans { font-family: Inter, "IBM Plex Sans", Manrope, Arial, sans-serif; }
+      .mono { font-family: "JetBrains Mono", "IBM Plex Mono", "SFMono-Regular", Consolas, monospace; }
+      .title { font-size: 50px; font-weight: 600; letter-spacing: -1.3px; fill: #EEF4F8; }
+      .subtitle { font-size: 18px; font-weight: 400; fill: #93A4B3; }
+      .section { font-size: 14px; font-weight: 600; letter-spacing: .2px; fill: #93A4B3; }
+      .product { font-size: 21px; font-weight: 600; fill: #EEF4F8; }
+      .product-lg { font-size: 31px; font-weight: 600; fill: #EEF4F8; }
+      .body { font-size: 15px; font-weight: 400; fill: #93A4B3; }
+      .micro { font-size: 12px; font-weight: 500; letter-spacing: 0; fill: #93A4B3; }
+      .terminal { font-size: 14px; font-weight: 600; fill: #EEF4F8; }
+      .neutral-line { fill: none; stroke: #2F4552; stroke-width: 1.25; }
+      .green-line { fill: none; stroke: #35F0A1; stroke-width: 1.5; }
+      .cyan-line { fill: none; stroke: #35C8FF; stroke-opacity: .78; stroke-width: 1.35; }
+      .amber-line { fill: none; stroke: #FFB84D; stroke-opacity: .76; stroke-width: 1.3; stroke-dasharray: 4 7; }
+      .port { fill: #06080A; stroke: #486575; stroke-width: 1.25; }
+    </style>
+  </defs>
+
+  <!-- Flat ILURO foundation -->
+  <rect width="1080" height="1350" fill="#06080A"/>
+
+  <!-- Brand header -->
+  <g transform="translate(55 34)">
+    <rect width="48" height="48" rx="5" fill="#080D12" stroke="rgba(160,190,210,.14)"/>
+    <g transform="translate(2 2)">
+      <line x1="5" y1="13" x2="39" y2="13" stroke="#2F4552" stroke-width=".95"/>
+      <line x1="5" y1="22" x2="39" y2="22" stroke="#2F4552" stroke-width=".95"/>
+      <line x1="5" y1="31" x2="39" y2="31" stroke="#2F4552" stroke-width=".95"/>
+      <line x1="16" y1="5" x2="16" y2="38" stroke="#2F4552" stroke-width=".95"/>
+      <line x1="29" y1="5" x2="29" y2="38" stroke="#2F4552" stroke-width=".95"/>
+      <line x1="29" y1="5" x2="29" y2="13" stroke="#35F0A1" stroke-width="1.45"/>
+      <line x1="29" y1="13" x2="39" y2="13" stroke="#35F0A1" stroke-width="1.45"/>
+      <circle cx="16" cy="13" r="2.1" fill="#071015" stroke="#486575" stroke-width=".85"/>
+      <circle cx="16" cy="22" r="2.1" fill="#071015" stroke="#486575" stroke-width=".85"/>
+      <circle cx="29" cy="22" r="2.1" fill="#071015" stroke="#486575" stroke-width=".85"/>
+      <circle cx="16" cy="31" r="2.1" fill="#071015" stroke="#486575" stroke-width=".85"/>
+      <circle cx="29" cy="31" r="2.1" fill="#071015" stroke="#486575" stroke-width=".85"/>
+      <circle cx="29" cy="13" r="3.2" fill="#35F0A1"/>
+    </g>
+  </g>
+  <text x="118" y="53" class="sans terminal">ILURO</text>
+  <text x="118" y="73" class="mono micro">BROADCAST SYSTEMS</text>
+  <text x="1024" y="63" text-anchor="end" class="mono micro">ILURO.TV</text>
+  <line x1="56" y1="104" x2="1024" y2="104" stroke="rgba(160,190,210,.14)"/>
+
+  <circle cx="61" cy="139" r="3.5" fill="#35F0A1"/>
+  <text x="76" y="143" class="mono micro">INTEGRATED BROADCAST WORKFLOW ECOSYSTEM</text>
+  <text x="56" y="204" class="sans title">One broadcast ecosystem.</text>
+  <text x="56" y="253" class="sans title">From newsroom to air.</text>
+  <text x="56" y="292" class="sans subtitle">Product and workflow topology</text>
+
+  <!-- Single topology plate -->
+  <rect x="40" y="330" width="1000" height="932" rx="6" fill="#080B0F" stroke="rgba(160,190,210,.14)"/>
+  <line x1="40" y1="330" x2="230" y2="330" stroke="#35F0A1" stroke-width="2"/>
+
+  <!-- 01 / Intake terminals -->
+  <text x="72" y="369" class="mono section">CONTRIBUTION &amp; ACQUISITION</text>
+  <text x="968" y="369" text-anchor="end" class="sans body">Capture, upload and file-drop intake</text>
+  <line x1="72" y1="386" x2="968" y2="386" stroke="rgba(160,190,210,.14)"/>
+
+  <g id="intake-products">
+    <text x="72" y="421" class="sans product">ILURO FIELD</text>
+    <text id="field-description" x="72" y="443" class="sans body" style="font-size:14px">Assignments / capture / upload</text>
+    <line x1="72" y1="468" x2="328" y2="468" class="neutral-line"/>
+    <circle cx="200" cy="468" r="3.2" class="port"/>
+
+    <line x1="350" y1="402" x2="350" y2="474" stroke="rgba(160,190,210,.14)"/>
+
+    <text x="380" y="421" class="sans product">ILURO INGEST</text>
+    <text x="380" y="443" class="sans body">SDI / NDI capture to MAM</text>
+    <line x1="380" y1="468" x2="636" y2="468" class="neutral-line"/>
+    <circle cx="508" cy="468" r="3.2" fill="#06080A" stroke="#35C8FF" stroke-opacity=".7" stroke-width="1.25"/>
+
+    <line x1="658" y1="402" x2="658" y2="474" stroke="rgba(160,190,210,.14)"/>
+
+    <text id="watchfolder-title" x="688" y="421" class="sans product" style="font-size:18px">ILURO WATCHFOLDER</text>
+    <text x="688" y="443" class="sans body">NAS / file drop to MAM</text>
+    <line x1="688" y1="468" x2="968" y2="468" class="neutral-line"/>
+    <circle cx="828" cy="468" r="3.2" fill="#06080A" stroke="#35C8FF" stroke-opacity=".7" stroke-width="1.25"/>
+  </g>
+
+  <!-- Shared intake rail -->
+  <path d="M200 468V500H828 M508 468V500 M828 468V500" class="neutral-line"/>
+  <path id="intake-to-nexus-link" d="M508 500V556" class="green-line"/>
+  <circle cx="200" cy="500" r="3" class="port"/>
+  <circle cx="508" cy="500" r="3.2" fill="#35F0A1"/>
+  <circle cx="828" cy="500" r="3" class="port"/>
+
+  <g id="nexus-card">
+    <rect x="72" y="556" width="638" height="240" rx="4" fill="#0D1116" stroke="rgba(160,190,210,.24)"/>
+    <line x1="72" y1="556" x2="710" y2="556" stroke="#35F0A1" stroke-width="2"/>
+    <circle cx="508" cy="556" r="4" fill="#35F0A1"/>
+    <text x="100" y="596" class="mono micro" fill="#35F0A1">CORE PLATFORM / INTEGRATED CONTROL</text>
+    <text x="100" y="632" class="sans product-lg">ILURO NEXUS</text>
+    <text x="100" y="658" class="sans body">Editorial workflows and canonical media truth</text>
+    <line x1="100" y1="681" x2="694" y2="681" stroke="rgba(160,190,210,.14)"/>
+
+    <text x="100" y="735" class="sans product">NEWSROOM</text>
+    <text x="100" y="765" class="sans body">Rundowns / stories / MOS</text>
+
+    <line x1="314" y1="697" x2="314" y2="776" stroke="rgba(160,190,210,.14)"/>
+
+    <text x="342" y="735" class="sans product">MAM</text>
+    <text id="mam-description" x="342" y="765" class="sans body" style="font-size:14px">Search / lifecycle / readiness</text>
+
+    <line x1="560" y1="697" x2="560" y2="776" stroke="rgba(160,190,210,.14)"/>
+
+    <text x="576" y="715" class="mono micro">CAPABILITY</text>
+    <text x="576" y="744" class="sans terminal">INTERCOM</text>
+    <text x="576" y="765" class="sans body">NEXUS clients</text>
+  </g>
+
+  <!-- Media Operations group with two explicit product bays -->
+  <g id="media-operations-group">
+    <rect id="media-operations-frame" x="730" y="548" width="270" height="258" rx="3" fill="#090C10" stroke="#263845" stroke-width="1.2"/>
+    <text id="media-operations-title" x="750" y="576" class="mono section" style="font-size:15px">MEDIA OPERATIONS</text>
+    <line x1="750" y1="590" x2="980" y2="590" stroke="rgba(160,190,210,.14)"/>
+
+    <rect id="transfer-card" x="750" y="600" width="230" height="78" rx="2" fill="#0D1116" stroke="#263845"/>
+    <text id="transfer-title" x="770" y="625" class="sans product" style="font-size:18px">ILURO TRANSFER</text>
+    <text id="transfer-description" x="770" y="647" class="sans body" style="font-size:14px">Site-to-site delivery</text>
+    <text id="transfer-status" x="770" y="666" class="mono micro" style="font-size:11px">STANDALONE DELIVERY</text>
+
+    <rect id="nle-card" x="750" y="692" width="230" height="96" rx="2" fill="#0D1116" stroke="#263845"/>
+    <text id="nle-title-line-1" x="770" y="718" class="sans product" style="font-size:18px">ILURO NLE</text>
+    <text id="nle-title-line-2" x="770" y="739" class="sans product" style="font-size:18px">MANAGER</text>
+    <text id="nle-description-line-1" x="770" y="760" class="sans body" style="font-size:13px">Premiere Pro /</text>
+    <text id="nle-description-line-2" x="770" y="779" class="sans body" style="font-size:13px">DaVinci Resolve</text>
+  </g>
+
+  <!-- Shared Media Operations route, centered precisely between Transfer and NLE -->
+  <path id="media-operations-link" d="M445 776V820H716V685H730" class="cyan-line"/>
+  <circle cx="445" cy="796" r="3.5" fill="#06080A" stroke="#35C8FF" stroke-width="1.25"/>
+  <circle id="media-operations-port" cx="730" cy="685" r="3.5" fill="#06080A" stroke="#35C8FF" stroke-width="1.25"/>
+  <rect x="500" y="806" width="200" height="24" fill="#080B0F"/>
+  <text x="600" y="823" text-anchor="middle" class="sans terminal" style="font-size:15px" fill="#35C8FF">MAM ↔ NLE MANAGER</text>
+
+  <!-- Reserved connector gutter -->
+  <text x="72" y="862" class="sans product" style="font-size:18px">LIVE PRODUCTION</text>
+  <line x1="72" y1="880" x2="968" y2="880" stroke="rgba(160,190,210,.14)"/>
+
+  <!-- Newsroom / MOS workflow spine, routed through the left connector gutter -->
+  <path d="M210 776V820H56V930H162" class="green-line"/>
+  <circle cx="210" cy="796" r="3.2" fill="#35F0A1"/>
+  <circle cx="56" cy="820" r="3.2" fill="#35F0A1"/>
+
+  <text x="72" y="914" class="sans terminal" style="font-size:16px" fill="#35F0A1">NEXUS / MOS DIRECT WORKFLOW</text>
+  <path id="nexus-direct-workflow-bus" d="M162 930H699" class="green-line"/>
+  <circle cx="162" cy="930" r="3.2" fill="#35F0A1"/>
+  <circle cx="699" cy="930" r="3.2" fill="#35F0A1"/>
+
+  <!-- Live execution rack -->
+  <g id="runtime-rack">
+    <rect x="72" y="982" width="896" height="146" rx="3" fill="#0D1116" stroke="rgba(160,190,210,.24)"/>
+    <line x1="72" y1="982" x2="968" y2="982" stroke="#2F4552" stroke-width="1.5"/>
+
+    <line x1="251" y1="982" x2="251" y2="1128" stroke="rgba(160,190,210,.14)"/>
+    <line x1="430" y1="982" x2="430" y2="1128" stroke="rgba(160,190,210,.14)"/>
+    <line x1="609" y1="982" x2="609" y2="1128" stroke="rgba(160,190,210,.14)"/>
+    <line x1="788" y1="982" x2="788" y2="1128" stroke="rgba(160,190,210,.24)"/>
+
+    <text x="92" y="1035" class="sans product">PLAYOUT</text>
+    <text x="92" y="1065" class="sans body">A/B channels</text>
+
+    <text x="271" y="1035" class="sans product">CG</text>
+    <text x="271" y="1065" class="sans body">Graphics execution</text>
+
+    <text x="450" y="1035" class="sans product">SCRIPT</text>
+    <text x="450" y="1065" class="sans body">Prompting</text>
+
+    <text x="629" y="1035" class="sans product">MOSAIC</text>
+    <text x="629" y="1065" class="sans body">Video wall routing</text>
+
+    <text x="808" y="1035" class="sans product">VISION</text>
+    <text id="vision-description" x="808" y="1065" class="sans body" style="font-size:14px">Production switching</text>
+  </g>
+
+  <!-- Direct NEXUS taps above the execution rack -->
+  <path id="nexus-direct-workflow-taps" d="M162 930V982 M341 930V982 M520 930V982 M699 930V982" class="green-line"/>
+
+  <circle cx="162" cy="930" r="3.2" fill="#35F0A1"/>
+  <circle cx="341" cy="930" r="3.2" fill="#35F0A1"/>
+  <circle cx="520" cy="930" r="3.2" fill="#35F0A1"/>
+  <circle cx="699" cy="930" r="3.2" fill="#35F0A1"/>
+  <circle cx="162" cy="982" r="4" fill="#06080A" stroke="#35F0A1" stroke-width="1.3"/>
+  <circle cx="341" cy="982" r="4" fill="#06080A" stroke="#35F0A1" stroke-width="1.3"/>
+  <circle cx="520" cy="982" r="4" fill="#06080A" stroke="#35F0A1" stroke-width="1.3"/>
+  <circle cx="699" cy="982" r="4" fill="#06080A" stroke="#35F0A1" stroke-width="1.3"/>
+
+  <!-- ILURO Conductor: four current runtime links and one explicitly planned VISION link -->
+  <g id="conductor-group">
+    <path d="M162 1128V1146 M341 1128V1146 M520 1128V1146 M699 1128V1146" class="amber-line"/>
+    <rect id="conductor-card" x="72" y="1146" width="716" height="58" rx="3" fill="#0D1116" stroke="rgba(160,190,210,.24)"/>
+    <line x1="72" y1="1146" x2="788" y2="1146" class="amber-line"/>
+    <text id="conductor-title" x="92" y="1175" class="sans product" style="font-size:18px">ILURO CONDUCTOR</text>
+    <text id="conductor-description" x="92" y="1195" class="sans body" style="font-size:13px">Published plan execution overlay</text>
+    <text id="conductor-status" x="764" y="1175" text-anchor="end" class="mono terminal" style="font-size:13px" fill="#FFB84D">OPTIONAL AUTOMATION</text>
+    <text x="764" y="1195" text-anchor="end" class="mono micro" style="font-size:11px">PLAYOUT · CG · SCRIPT · MOSAIC</text>
+    <path id="vision-planned-link" d="M788 1146H878V1128" class="amber-line"/>
+    <circle cx="878" cy="1128" r="4" fill="#06080A" stroke="#FFB84D" stroke-opacity=".76" stroke-width="1.2"/>
+    <text id="vision-planned-label" x="878" y="1176" text-anchor="middle" class="mono terminal" style="font-size:12px" fill="#FFB84D">PLANNED</text>
+  </g>
+
+  <!-- One shared direct-control bracket for every runtime -->
+  <path d="M72 1218V1228H968V1218" class="neutral-line"/>
+  <text x="520" y="1252" text-anchor="middle" class="sans terminal" style="font-size:16px">DIRECT OPERATOR CONTROL / INDEPENDENTLY OPERABLE</text>
+
+  <!-- Footer -->
+  <line x1="56" y1="1292" x2="1024" y2="1292" stroke="rgba(160,190,210,.14)"/>
+  <text x="56" y="1322" class="mono micro">ILURO BROADCAST SYSTEMS</text>
+  <text x="1024" y="1322" text-anchor="end" class="sans body">Modular broadcast infrastructure / iluro.tv</text>
+</svg>
