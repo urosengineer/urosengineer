@@ -11,7 +11,7 @@ Most of my current work lives in private repositories and is focused on a larger
 - desktop operator tools
 - native media and playback engine components
 
-I’m interested in complete systems — software where architecture, runtime behavior, operator experience, and production reliability all matter.
+I’m interested in complete systems: software where architecture, runtime behavior, operator experience, and production reliability all matter.
 
 ## ILURO Broadcast Systems
 
