@@ -63,7 +63,7 @@ jobs:
         run: |
           mv profile/streak.next.svg profile/streak.svg
           sed -i -E "s#(src=\"\\./profile/streak\\.svg)(\\?v=[^\"]*)?(\".*)#\\1?v=${GITHUB_RUN_ID}\\3#" README.md
-          sed -i -E "s#(src=\"\\./profile-3d-contrib/profile-night-rainbow\\.svg)(\\?v=[^\"]*)?(\".*)#\\1?v=${GITHUB_RUN_ID}\\3#" README.md
+          sed -i -E "s#(src=\"\\./profile-3d-contrib/profile-night-green\\.svg)(\\?v=[^\"]*)?(\".*)#\\1?v=${GITHUB_RUN_ID}\\3#" README.md
 
       - id: generate-3d
         continue-on-error: true
@@ -77,7 +77,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add README.md profile/streak.svg
-          if test -f profile-3d-contrib/profile-night-rainbow.svg; then
+          if test -f profile-3d-contrib/profile-night-green.svg; then
             git add profile-3d-contrib
           fi
           if git diff --cached --quiet; then

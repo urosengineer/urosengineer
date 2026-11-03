@@ -31,7 +31,7 @@ I’m interested in complete systems: software where architecture, runtime behav
 
 <p align="center">
   <img
-    src="./profile-3d-contrib/profile-night-rainbow.svg?v=41550231253"
+    src="./profile-3d-contrib/profile-night-green.svg?v=41550231253"
     alt="GitHub 3D Contribution Graph"
   />
 </p>
