@@ -31,14 +31,14 @@ I’m interested in complete systems: software where architecture, runtime behav
 
 <p align="center">
   <img
-    src="./profile-3d-contrib/profile-night-green.svg?v=41893064778"
+    src="./profile-3d-contrib/profile-night-green.svg?v=41938684093"
     alt="GitHub 3D Contribution Graph"
   />
 </p>
 
 <p align="center">
   <img
-    src="./profile/streak.svg?v=41893064778"
+    src="./profile/streak.svg?v=41938684093"
     alt="GitHub Contribution Streak"
   />
 </p>
